@@ -6,3 +6,5 @@ Various personal projects that implement hardware controls for MSFS 2020.
 - KAP-140 (Autopilot)
 - GNS530 (Smaller GPS unit)
 - Trim Wheel
+- GFC500 Autopilot
+- KT75C Transponder
