@@ -1,4 +1,5 @@
 // GFC 500 Autopilot based on RealSimGear.
+// Uses an Arduino Mega 2560 Pro (the small-form factor Mega)
 // 11 LEDs. 3 single rotary encoders, 2 with push button. 12 stand alone buttons (so 14 total buttons).
 // The 12th LED is the TRK LED, which is set manually.
 // For Arduino Mega 2560
@@ -107,7 +108,7 @@ BTN_LVL+=AP_WING_LEVELER
 #define LEDyd 36 // YD (8)
 #define LEDalt 44 // ALT (9)
 #define LEDvs 40 // VS (10)
-#define LEDvnav 38fli // Glide Slope VNAV (11)
+#define LEDvnav 38 // Glide Slope VNAV (11)
 #define LEDtrk 46 // DOES NOT COME FROM RSG. 
 
 bool TRKmode = false;
@@ -201,9 +202,11 @@ void setup() {
   // initialize LED output pins
   for (uint8_t i=0; i<(sizeof(LED)/sizeof(LED[0])); ++i){
     pinMode(LED[i], OUTPUT);
-    digitalWrite(LED[i], HIGH);
-    delay(1000);
-    digitalWrite(LED[i], LOW);
+// LED Testing. Super irritating if left on as the device restarts a couple times
+// during MSFS startup.
+//    digitalWrite(LED[i], HIGH);
+//    delay(100);
+//    digitalWrite(LED[i], LOW);
   }
 
   uint8_t i = 0;
