@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleType>MobiFlight Micro</ModuleType>
+  <ModuleName>Comanche Fuel</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <AnalogInput Name="FuelLeft" Pin="18" Sensitivity="5" />
+  <AnalogInput Name="FuelRight" Pin="19" Sensitivity="5" />
+</Config>

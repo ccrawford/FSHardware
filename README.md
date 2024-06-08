@@ -8,3 +8,7 @@ Various personal projects that implement hardware controls for MSFS 2020.
 - Trim Wheel
 - GFC500 Autopilot
 - KT75C Transponder
+
+A2A Comanche Specific
+- Floor Fuel Valves
+
