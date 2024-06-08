@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleType>MobiFlight RaspiPico</ModuleType>
+  <ModuleName>Narco CP 136</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <Button Name="TestMomentary" Pin="0" />
+  <Button Name="MkrLow" Pin="1" />
+  <Button Name="MkrMute" Pin="2" />
+  <Output Name="COM1Light" Pin="3" />
+  <Button Name="COM1Sel" Pin="4" />
+  <Output Name="COM2Light" Pin="5" />
+  <Button Name="COM2Sel" Pin="6" />
+  <Output Name="BothLight" Pin="7" />
+  <Button Name="BothSel" Pin="8" />
+  <Output Name="NAV1Light" Pin="9" />
+  <Button Name="NAV1Sel" Pin="10" />
+  <Output Name="NAV2Light" Pin="11" />
+  <Button Name="NAV2Sel" Pin="12" />
+  <Output Name="ADFLight" Pin="13" />
+  <Button Name="ADFSel" Pin="14" />
+  <Output Name="MKRDMELight" Pin="15" />
+  <Button Name="MKRDMESel" Pin="16" />
+  <Output Name="SPKRLight" Pin="17" />
+  <Button Name="SPKRSel" Pin="18" />
+  <Output Name="FMZLight" Pin="19" />
+  <Output Name="MMLight" Pin="21" />
+  <Output Name="OMLight" Pin="20" />
+  <Button Name="FMZButton" Pin="22" />
+  <Button Name="MMButton" Pin="27" />
+  <Button Name="OMButton" Pin="26" />
+</Config>

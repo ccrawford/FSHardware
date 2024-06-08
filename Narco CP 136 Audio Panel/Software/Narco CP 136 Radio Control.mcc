@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="924631ba-ed19-49a0-b640-ba430381d166">
+      <active>true</active>
+      <description>COM1Light</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:AudioCom1HpSwitch,bool)" UUID="a82f35a4-163e-4b5e-a3e7-08f4f230a9e4" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="Narco CP 136/ SN-E66038B71310532F" trigger="normal" pin="COM1Light" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b34dcabe-ca72-401e-bee2-84adfe6b3849">
+      <active>true</active>
+      <description>COM2Light</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:AudioCom2HpSwitch,bool)" UUID="99123037-c24c-44a3-beca-11b7edfef438" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="Narco CP 136/ SN-E66038B71310532F" trigger="normal" pin="COM2Light" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c2776d38-3b0f-4639-ace8-25ca143e2326">
+      <active>true</active>
+      <description>COM BothLight</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:AudioBothHpSwitch)" UUID="d91f5b79-a771-4c30-b948-bf304bc6f72a" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="Narco CP 136/ SN-E66038B71310532F" trigger="normal" pin="BothLight" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e9de1c0a-7c09-453a-a12d-f80a75bf0ef3">
+      <active>true</active>
+      <description>NAV1Light</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:AudioNav1HpSwitch)" UUID="c4aa2591-5cc5-4576-9cc0-0acec41fcd5b" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="Narco CP 136/ SN-E66038B71310532F" trigger="normal" pin="NAV1Light" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="94917bb8-933e-4b14-a458-1cd653947fd9">
+      <active>true</active>
+      <description>Nav2Light</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:AudioNav2HpSwitch)" UUID="90e75356-3d19-48da-b542-50293364e297" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="Narco CP 136/ SN-E66038B71310532F" trigger="normal" pin="NAV2Light" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="244490a6-4f44-4341-97a7-a251a2125d61">
+      <active>true</active>
+      <description>ADFLight</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:AudioAdf1HpSwitch)" UUID="66caff7d-d089-4a1c-86f0-2a83a5b3a8e6" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="Narco CP 136/ SN-E66038B71310532F" trigger="normal" pin="ADFLight" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1f6d1683-f2cb-4b78-a18e-398483b68e13">
+      <active>true</active>
+      <description>MKR/DME Light</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:AudioMkrHpSwitch)" UUID="e83ff823-b340-41bf-9d0e-965a5ca46f73" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="Narco CP 136/ SN-E66038B71310532F" trigger="normal" pin="MKRDMELight" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a64d98d8-c0f7-4347-8591-7ab5de4125de">
+      <active>true</active>
+      <description>SpeakerLight</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:AudioSpkrSwitch)" UUID="f2116ac6-92d8-4cd9-ace8-da3ea74c7d8e" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="Narco CP 136/ SN-E66038B71310532F" trigger="normal" pin="SPKRLight" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4d865ef3-40d7-47f7-b84a-a5d5390f2abb">
+      <active>true</active>
+      <description>InnerMarkerLight</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:MarkerInnerLight,bool)" UUID="d31bb314-dde7-4b4e-a4e1-6c9f71164cb4" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="Narco CP 136/ SN-E66038B71310532F" trigger="normal" pin="FMZLight" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="766c0f36-79bd-4b74-9144-0135a5f56f0d">
+      <active>true</active>
+      <description>InnerMarkerIntensity</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:PushToTestMBIKnob)" UUID="a0922d28-35e3-442c-89d2-31407cc071f0" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="-" serial="-" trigger="normal" pin="" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3c57a194-2286-4037-95bb-e7408769a3c0">
+      <active>true</active>
+      <description>MiddleMarkerLight</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:MarkerMiddleLight,bool)" UUID="9e84e69e-3e80-4371-baef-9b71f71a78e1" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="Narco CP 136/ SN-E66038B71310532F" trigger="normal" pin="MMLight" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3bd1b4f2-3cc6-4412-8ff2-a560671cec3b">
+      <active>true</active>
+      <description>MiddleMarkerIntensity</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:PushToTestMBMKnob)" UUID="83e887a2-273c-4a96-8db4-bac6ecd8006e" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="-" serial="-" trigger="normal" pin="" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="56a262f6-d054-49cc-992a-6d8c49e30e9d">
+      <active>true</active>
+      <description>OuterMarkerLight</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:MarkerOuterLight,bool)" UUID="d56321c1-b8ac-46e6-8a39-250e2f4924d4" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="Output" serial="Narco CP 136/ SN-E66038B71310532F" trigger="normal" pin="OMLight" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b3d9ee00-d362-49f4-a45c-bb8039c4c4de">
+      <active>true</active>
+      <description>OuterMarkerIntensity</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:PushToTestMBOKnob)" UUID="6de94143-d9b4-49bf-9850-b32816fb1c54" />
+        <test type="Float" value="1" />
+        <modifiers />
+        <display type="-" serial="-" trigger="normal" pin="" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </outputs>
+  <inputs>
+    <config guid="2dcda118-1244-4176-b9dd-4d6979a6cb24">
+      <active>true</active>
+      <description>COM1Sel</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" serial="Narco CP 136/ SN-E66038B71310532F" name="COM1Sel" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:AudioComSwitch,bool)" presetId="d4f6ff18-d1d5-4a8f-8a36-fbb77c6b226c" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4794fba5-221f-4002-9659-27831caf3c4f">
+      <active>true</active>
+      <description>COM2Sel</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" serial="Narco CP 136/ SN-E66038B71310532F" name="COM2Sel" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:AudioComSwitch,bool)" presetId="249ab11b-d84f-4870-bb41-9906f4a39cd7" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="209efa06-bf7e-47cb-bc91-911d5166e8c1">
+      <active>true</active>
+      <description>BOTHSel</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" serial="Narco CP 136/ SN-E66038B71310532F" name="BothSel" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:AudioBothHpSwitch,bool) ! (&gt;L:AudioBothHpSwitch,bool)" presetId="17f55602-6921-45eb-8427-d9d785c93d19" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="88b783aa-223c-4cf1-849e-159d698f1da6">
+      <active>true</active>
+      <description>NAV1Sel</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" serial="Narco CP 136/ SN-E66038B71310532F" name="NAV1Sel" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:AudioNav1HpSwitch,bool) ! (&gt;L:AudioNav1HpSwitch,bool)" presetId="2851f15f-5d68-4762-b961-eb12b39bd335" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2d2973c8-7f12-4cc1-b3cc-f12a714c967e">
+      <active>true</active>
+      <description>NAV2Sel</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" serial="Narco CP 136/ SN-E66038B71310532F" name="NAV2Sel" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:AudioNav2HpSwitch,bool) ! (&gt;L:AudioNav2HpSwitch,bool)" presetId="dc78b575-a92b-4446-820e-4304b6e13fb7" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="971ff84f-06c6-4692-b5dc-778323d3c427">
+      <active>true</active>
+      <description>ADFSel</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" serial="Narco CP 136/ SN-E66038B71310532F" name="ADFSel" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:AudioAdf1HpSwitch,bool) ! (&gt;L:AudioAdf1HpSwitch,bool)" presetId="2fd2899c-f30d-491d-8800-6f9a16b7c1f9" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="10aaa6cc-9146-43c3-aed9-948ecc139c36">
+      <active>true</active>
+      <description>NKRDMESel</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" serial="Narco CP 136/ SN-E66038B71310532F" name="MKRDMESel" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:AudioMkrHpSwitch,bool) ! (&gt;L:AudioMkrHpSwitch,bool)" presetId="1b04d7cc-82fd-4eb5-82a3-4e652f504668" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2b3cbb69-55ac-413a-b82e-0023ab1a66ed">
+      <active>true</active>
+      <description>SPKRSel</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" serial="Narco CP 136/ SN-E66038B71310532F" name="SPKRSel" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:AudioSpkrSwitch,bool) ! (&gt;L:AudioSpkrSwitch,bool)" presetId="6d60461e-81e3-4cfe-97b1-592190327444" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="60c5a6b1-60bb-4a5f-9329-ca505b56a320">
+      <active>true</active>
+      <description>SensHiLow</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" serial="Narco CP 136/ SN-E66038B71310532F" name="MkrLow" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="0 (&gt;L:AudioSensSwitch,bool)" presetId="6d60461e-81e3-4cfe-97b1-592190327444" />
+          <onRelease type="MSFS2020CustomInputAction" command="1 (&gt;L:AudioSensSwitch,bool)" presetId="-" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4111fbb8-22c5-4b95-977d-69f8a857908b">
+      <active>true</active>
+      <description>MarkerMute</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" serial="Narco CP 136/ SN-E66038B71310532F" name="MkrMute" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:AudioSpkrSwitch,bool) ! (&gt;L:AudioSpkrSwitch,bool)" presetId="6d60461e-81e3-4cfe-97b1-592190327444" />
+          <onRelease type="MSFS2020CustomInputAction" command="" presetId="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="82f51f76-0012-48a1-8664-b94cae8b17ae">
+      <active>true</active>
+      <description>MarkerTest</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" serial="Narco CP 136/ SN-E66038B71310532F" name="TestMomentary" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:AudioMkrMuteSwitch, bool)" presetId="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9aee141a-1046-4b87-8c95-f6695c15dcc5">
+      <active>true</active>
+      <description>FMZ Button</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" serial="Narco CP 136/ SN-E66038B71310532F" name="FMZButton" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:PushToTestMBI, bool)" presetId="0" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:PushToTestMBI, bool)" presetId="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="bc721a8b-2f6d-469b-ad61-867c7e78fc5e">
+      <active>true</active>
+      <description>MM Button</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" serial="Narco CP 136/ SN-E66038B71310532F" name="MMButton" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:PushToTestMBM, bool)" presetId="0" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:PushToTestMBM, bool)" presetId="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4318acc4-23b4-485e-8fc5-74e815503168">
+      <active>true</active>
+      <description>OM Button</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.2.2.2, Culture=neutral, PublicKeyToken=null" serial="Narco CP 136/ SN-E66038B71310532F" name="OMButton" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:PushToTestMBO, bool)" presetId="0" />
+          <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:PushToTestMBO, bool)" presetId="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>
