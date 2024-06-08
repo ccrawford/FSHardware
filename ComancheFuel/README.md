@@ -1,4 +1,6 @@
 A simple rotary control to control the fuel valves on the A2A Comanche in MSFS 2020
+<img src="Photos\IMG_1518.jpg" width="500">
+<img src="Photos\IMG_1519.jpg" width="500">
 
 Hardware:
 - Two 10k rotary poteniometers. Somthing like a WH148 10k linear taper pot. Ideally one with 180 degree rotation.
@@ -24,6 +26,7 @@ Build steps:
     - Middle of right pot goes to A1
     - One outside pin on each goes to ground on Arduino
     - Other outside pin on each goes to VCC on Arduino
+    - See [this photo](ComancheFuel/Photos/IMG_1519.jpg) full size for help.
 - In Mobiflight configure the Arduino in the MobiFlight Module section with the .mfmc file in the software folder.
 - In Mobflight open the .mcc file in the software folder.
 - Test!
