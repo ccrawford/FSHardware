@@ -28,7 +28,6 @@ Build steps:
     - Middle of right pot goes to A1
     - One outside pin on each goes to ground on Arduino
     - Other outside pin on each goes to VCC on Arduino
-    - See [this photo](ComancheFuel/Photos/IMG_1519.jpg) full size for help.
 - In Mobiflight configure the Arduino in the MobiFlight Module section with the .mfmc file in the software folder.
 - In Mobflight open the .mcc file in the software folder.
 - Test!
@@ -42,3 +41,24 @@ Notes:
 - The output configs in Mobiflight are just there for informational/tuning purposes. The "Input configs" are the ones that count.
 - The case does not have a bottom plate/floor. It probably should. It would be trivial to add one in Fusion360.
 - The fascia is friction-fit into the base. Differences in printers may mean yours needs to be adjusted/trimmed/glued.
+
+Photos:
+Basic front view
+![View of KLN 90B](https://github.com/ccrawford/FSHardware/blob/main/KLN%2090B%20GPS/Photos/KLN%2090B%20800x320.jpg)
+
+Sideview showing buttons, mounting
+![Side view of KLN 90B](https://github.com/ccrawford/FSHardware/blob/main/KLN%2090B%20GPS/Photos/KLN%2090B%20side%20view.jpg)
+
+Rearview showing ugly-ass point-to-point wiring
+![Rear view of KLN 90B](https://github.com/ccrawford/FSHardware/blob/main/KLN%2090B%20GPS/Photos/KLN%2090B%20point%20to%20point.jpg)
+
+Not shown:
+Mount to allow easy attach/detach from Honeycomb Alpha yoke
+
+ToDo:
+As of Sep, 2024, none of these are in progress. It works great as is, although I'm a little concerned about durability.
+
+- Build a better surrounding case to better enclose wiring and support external connectors
+- Create a custom PCB to improve rigidity and durability
+- Incorporate into my existing Comanche radio stack
+- Source a more appropriate display (reduced height)
