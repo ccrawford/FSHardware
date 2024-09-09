@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleType>MobiFlight RaspiPico</ModuleType>
+  <ModuleName>KLN 90B GPS</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <Button Name="LeftCursorToggle" Pin="0" />
+  <Button Name="LeftEncPush" Pin="1" />
+  <Encoder Name="LeftLargeKnob" PinLeft="3" PinRight="2" EncoderType="2" />
+  <Encoder Name="LeftSmallKnob" PinLeft="5" PinRight="4" EncoderType="3" />
+  <Button Name="MSGButton" Pin="6" />
+  <Button Name="ALTButton" Pin="7" />
+  <Button Name="DIRECTButton" Pin="8" />
+  <Button Name="CLRButton" Pin="9" />
+  <Button Name="ENTButton" Pin="10" />
+  <Encoder Name="RightLargeKnob" PinLeft="12" PinRight="11" EncoderType="2" />
+  <Button Name="RightScanToggle" Pin="13" />
+  <Encoder Name="UNUSEDEncoder" PinLeft="14" PinRight="15" EncoderType="0" />
+  <Encoder Name="RightSmallKnob" PinLeft="17" PinRight="16" EncoderType="3" />
+  <Button Name="RightCursorBut" Pin="18" />
+  <Button Name="PowerButton" Pin="19" />
+  <Encoder Name="BrightnessEnc" PinLeft="21" PinRight="20" EncoderType="1" />
+</Config>

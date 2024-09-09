@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs />
+  <inputs>
+    <config guid="1dd743b3-c298-4c25-9c3c-df64fa46d694">
+      <active>true</active>
+      <description>POWER</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.3.0.2, Culture=neutral, PublicKeyToken=null" serial="KLN 90B GPS/ SN-45474E621A06390A" name="PowerButton" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_Power_Toggle)" presetId="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="761dc5d6-1a04-486a-baf3-9727684337fd">
+      <active>true</active>
+      <description>BRIGHTNESS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.3.0.2, Culture=neutral, PublicKeyToken=null" serial="KLN 90B GPS/ SN-45474E621A06390A" name="BrightnessEnc" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_Brt_Dec)" presetId="-" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_Brt_Inc)" presetId="0" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4e20bc08-335a-4dac-a9f2-e1e32838471a">
+      <active>true</active>
+      <description>LEFT_CURSOR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.3.0.2, Culture=neutral, PublicKeyToken=null" serial="KLN 90B GPS/ SN-45474E621A06390A" name="LeftCursorToggle" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_LeftCursor_Toggle)" presetId="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="24ae54f7-4e29-4e3d-a785-c026bc90d4e4">
+      <active>true</active>
+      <description>RIGHT_CURSOR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.3.0.2, Culture=neutral, PublicKeyToken=null" serial="KLN 90B GPS/ SN-45474E621A06390A" name="RightCursorBut" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_RightCursor_Toggle)" presetId="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4770ea1b-dd42-409b-b55e-f17ff6e165e3">
+      <active>true</active>
+      <description>MSG</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.3.0.2, Culture=neutral, PublicKeyToken=null" serial="KLN 90B GPS/ SN-45474E621A06390A" name="MSGButton" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_MSG_Push)" presetId="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1487db5e-140c-439e-9375-86e365ecf926">
+      <active>true</active>
+      <description>ALT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.3.0.2, Culture=neutral, PublicKeyToken=null" serial="KLN 90B GPS/ SN-45474E621A06390A" name="ALTButton" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_ALT_Push)" presetId="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4aad42f5-174d-41a3-bdde-be8773268929">
+      <active>true</active>
+      <description>DCT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.3.0.2, Culture=neutral, PublicKeyToken=null" serial="KLN 90B GPS/ SN-45474E621A06390A" name="DIRECTButton" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_DCT_Push)" presetId="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="dd77651f-a1e5-40bd-a4f4-0dcba4813202">
+      <active>true</active>
+      <description>CLR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.3.0.2, Culture=neutral, PublicKeyToken=null" serial="KLN 90B GPS/ SN-45474E621A06390A" name="CLRButton" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_CLR_Push)" presetId="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2a60ca99-803a-4926-90b2-6a19c0c75815">
+      <active>true</active>
+      <description>ENT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.3.0.2, Culture=neutral, PublicKeyToken=null" serial="KLN 90B GPS/ SN-45474E621A06390A" name="ENTButton" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_ENT_Push)" presetId="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4685f07b-d1a3-4dee-ab56-4734dd824ad8">
+      <active>true</active>
+      <description>LEFT_LARGE_KNOB</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.3.0.2, Culture=neutral, PublicKeyToken=null" serial="KLN 90B GPS/ SN-45474E621A06390A" name="LeftLargeKnob" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_LeftLargeKnob_Left)" presetId="-" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_LeftLargeKnob_Right)" presetId="0" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="194a864c-0c4d-46e3-a298-f711a9ecb84e">
+      <active>true</active>
+      <description>LEFT_SMALL_KNOB</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.3.0.2, Culture=neutral, PublicKeyToken=null" serial="KLN 90B GPS/ SN-45474E621A06390A" name="LeftSmallKnob" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_LeftSmallKnob_Left)" presetId="0" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_LeftSmallKnob_Right)" presetId="0" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="201f18e6-04ab-4677-ae39-78b6ecf424e5">
+      <active>true</active>
+      <description>RIGHT_LARGE_KNOB</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.3.0.2, Culture=neutral, PublicKeyToken=null" serial="KLN 90B GPS/ SN-45474E621A06390A" name="RightLargeKnob" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_RightLargeKnob_Left)" presetId="0" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_RightLargeKnob_Right)" presetId="0" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="31f7c1de-559c-4f47-9935-a0a402d61c66">
+      <active>true</active>
+      <description>RIGHT_SMALL_KNOB</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.3.0.2, Culture=neutral, PublicKeyToken=null" serial="KLN 90B GPS/ SN-45474E621A06390A" name="RightSmallKnob" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_RightSmallKnob_Left)" presetId="0" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_RightSmallKnob_Right)" presetId="0" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="933e673e-ab78-4be1-b746-b1079cd48e75">
+      <active>true</active>
+      <description>SCAN_TOGGLE</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.3.0.2, Culture=neutral, PublicKeyToken=null" serial="KLN 90B GPS/ SN-45474E621A06390A" name="RightScanToggle" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;H:KLN90B_RightScan_Toggle)" presetId="-" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>
