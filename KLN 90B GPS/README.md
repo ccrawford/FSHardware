@@ -1,6 +1,6 @@
 Physical controls, display, and mounting for [falcon71's KLN 90B](https://github.com/falcon71/kln90b) for MSFS.
 
-In June-ish of 2024 A2A added support for the open-source KLN 90B to the Comanche. Although my current radio stack is full, I wanted to add this somehow.
+In June-ish of 2024 A2A added support for Falcon71's awesome [open-source KLN 90B](https://github.com/falcon71/kln90b) to the A2A Comanche which is my 'daily driver' in MSFS 2020. Although my current radio stack is full, I wanted to add this somehow.
 
 The basic construction of this is "a button box connected by Mobiflight with a small HDMI screen." It's very similar to my G1000 or GNS530.
 
