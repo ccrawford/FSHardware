@@ -42,7 +42,7 @@ public:
 
 
 // define number of buttons
-#define NUM_BUTTONS 16 //total number of buttons (not on muxes)
+#define NUM_BUTTONS 17 //total number of buttons (not on muxes)
 Button Buttons[NUM_BUTTONS];
 
 
@@ -51,47 +51,41 @@ Button Buttons[NUM_BUTTONS];
 RotaryHandler *Encoders[NUM_ENCODERS];
 
 // define encoders  (name, pin pair for A and B pins)
-Encoder ENC_FMS_INNER(43, 45);
-Encoder ENC_FMS_OUTER(44, 42);
-Encoder ENC_COM_OUTER(29, 27);
-Encoder ENC_COM_INNER(26, 28);
-Encoder ENC_NAV_VOL(23, 21);
-Encoder ENC_COM_VOL(20, 22);
+Encoder ENC_FMS_INNER(49, 48);
+Encoder ENC_FMS_OUTER(47, 46);
+Encoder ENC_COM_OUTER(53, 52);
+Encoder ENC_COM_INNER(50, 51);
+Encoder ENC_NAV_VOL(9, 8);
+Encoder ENC_COM_VOL(6, 7);
 
 void setup() {
 
   // start serial connection
   Serial.begin(115200);
   
-  // Setup in-line ground pins.
-  pinMode(47, OUTPUT); digitalWrite(47, LOW); //FMS Gnd
-  pinMode(30, OUTPUT); digitalWrite(30, LOW);
-  pinMode(25, OUTPUT); digitalWrite(25, LOW);
-  pinMode(18, OUTPUT); digitalWrite(18, LOW);
-  pinMode(55, OUTPUT); digitalWrite(55, LOW);
-  pinMode(54, OUTPUT); digitalWrite(54, LOW);
-  
   // init non-mux buttons
   uint8_t i = 0;
-  Buttons[i++].initialize("BTN_NAV_FF", 10, 10);
-  Buttons[i++].initialize("BTN_COM_FF", 11, 10);
+  Buttons[i++].initialize("BTN_NAV_FF", 22, 10);
+  Buttons[i++].initialize("BTN_COM_FF", 24, 10);
 
-  Buttons[i++].initialize("BTN_CDI", 69, 10);
-  Buttons[i++].initialize("BTN_OBS", 33, 10);
-  Buttons[i++].initialize("BTN_MSG", 34, 10);
-  Buttons[i++].initialize("BTN_FPL", 35, 10);
-  Buttons[i++].initialize("BTN_VNAV", 32, 10);
-  Buttons[i++].initialize("BTN_PROC", 68, 10);
+  Buttons[i++].initialize("BTN_CDI", 32, 10);
+  Buttons[i++].initialize("BTN_OBS", 34, 10);
+  Buttons[i++].initialize("BTN_MSG", 37, 10);
+  Buttons[i++].initialize("BTN_FPL", 36, 10);
+  Buttons[i++].initialize("BTN_PROC", 33, 10);
 
-  Buttons[i++].initialize("BTN_ZOOM_UP", 36, 10);
-  Buttons[i++].initialize("BTN_ZOOM_DN", 38, 10);
-  Buttons[i++].initialize("BTN_DIRECT", 40, 10);
-  Buttons[i++].initialize("BTN_MENU", 41, 10);
-  Buttons[i++].initialize("BTN_CLR", 39, 10);
-  Buttons[i++].initialize("BTN_ENT", 37, 10);
+  Buttons[i++].initialize("BTN_ZOOM_UP", 27, 10);
+  Buttons[i++].initialize("BTN_ZOOM_DN", 26, 10);
+  Buttons[i++].initialize("BTN_DIRECT", 28, 10);
+  Buttons[i++].initialize("BTN_MENU", 25, 10);
+  Buttons[i++].initialize("BTN_CLR", 29, 10);
+  Buttons[i++].initialize("BTN_ENT", 23, 10);
 
-  Buttons[i++].initialize("BTN_NAV_COM_TOG", 31, 10);
-  Buttons[i++].initialize("BTN_FMS", 46, 10);
+  Buttons[i++].initialize("BTN_NAV_COM_TOG", 30, 10);
+  Buttons[i++].initialize("BTN_FMS", 31, 10);
+
+  Buttons[i++].initialize("BTN_COM_VOL", 10, 10);
+  Buttons[i++].initialize("BTN_NAV_VOL", 11, 10);
 
 // end of init non-mux buttons
 
@@ -112,7 +106,8 @@ unsigned long lastKeepAliveLong = 0;
 void loop() {
    // keep alive for RSG connection
   if(millis() - lastKeepAliveLong > 3000 ) {
-    Serial.write("\\####RealSimGear#RealSimGear-GNS530#1#3.2.4#756E6B776F08B/\n"); // From the latest 5/17/2021 download
+    //Serial.write("\\####RealSimGear#RealSimGear-GNS530#1#3.2.4#756E6B776F08B/\n"); // From the latest 5/17/2021 download
+    Serial.write("\\####RealSimGear#RealSimGear-GNS430#2#3.2.4#3037373734DAF/\n"); // Test
     lastKeepAliveLong = millis();
     lastKeepAlive = millis();
   }
