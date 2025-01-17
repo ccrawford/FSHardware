@@ -1,0 +1,43 @@
+{
+    "$schema": "./mfdevice.schema.json",
+    "Info": {
+      "Label": "CCrawford's C172 Tachometer",
+      "Type": "CC172Tach",
+      "Author": "CCrawford",
+      "URL": "https://github.com/CCrawford/FSHardware",
+      "Version" : "1.0.0"
+    },
+    "Config": {
+      "Pins": [
+      ],
+      "isI2C": false
+    },
+    "MessageTypes": [
+      {
+        "id": 0,
+        "label": "Set Engine RPM",
+        "description": "$ will be displayed as Tachometer value"
+      },
+      {
+        "id": 1,
+        "label": "Set Engine Hours",
+        "description": "$ will be displayed as the Engine Hours"
+      },
+      {
+        "id": 2,
+        "label": "Set Wind Direction",
+        "description": "$ will be displayed as wind direction (degrees)"
+      },
+      {
+        "id": 3,
+        "label": "Set Wind Speed",
+        "description": "$ will be displayed as the wind speed (knots)"
+      },
+      {
+        "id": 4,
+        "label": "Set AOA",
+        "description": "$ will set the Angle of Attack indicator"
+      }
+    ]
+  }
+  
