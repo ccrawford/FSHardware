@@ -1,0 +1,135 @@
+{
+  "$schema": "./mfboard.schema.json",
+  "AvrDudeSettings": {
+    "Device": "ESP32-S3 DevKitC1",
+    "BaudRate": "115200",
+    "Programmer": "arduino",
+    "Timeout": 15000
+  },
+  "Connection": {
+    "ConnectionDelay": 1250,
+    "DelayAfterFirmwareUpdate": 1250,
+    "DtrEnable": true,
+    "EEPROMSize": 1496,
+    "ExtraConnectionRetry": false,
+    "ForceResetOnFirmwareUpdate": true,
+    "MessageSize": 90
+  },
+  "HardwareIds": [
+    "^VID_303A&PID_1001",
+    "^VID_303A\\+PID_1001\\+.+"
+  ],
+  "Info": {
+    "CanInstallFirmware": true,
+    "CanResetBoard": true,
+    "DelayAfterFirmwareUpdate": 0,
+    "FirmwareBaseName": "CC172EngineGauges_esp32s3",
+    "FirmwareExtension": "bin",
+    "FriendlyName": "CC 172 EngineGauges ESP32-S3 DevKitC1",
+    "LatestFirmwareVersion": "2.5.1",
+    "MobiFlightType": "CC172EngineGauges ESP32-S3 DevKitC1",
+    "ResetFirmwareFile": "reset.raspberry_pico_flash_nuke.uf2",
+    "CustomDeviceTypes": [
+      "CC172EngineGauges"
+    ],
+    "Community": {
+      "Project": "CC Cessna 172 Engine Gauges",
+      "Website": "https://github.com/ccrawford/FSHardware",
+      "Docs": "https://github.com/ccrawford/FSHardware",
+      "Support": "https://github.com/ccrawford/FSHardware"
+    }
+  },
+  "ModuleLimits": {
+    "MaxAnalogInputs": 0,
+    "MaxInputShifters": 0,
+    "MaxButtons": 11,
+    "MaxEncoders": 5,
+    "MaxLcdI2C": 0,
+    "MaxLedSegments": 0,
+    "MaxOutputs": 11,
+    "MaxServos": 0,
+    "MaxShifters": 0,
+    "MaxSteppers": 0,
+    "MaxInputMultiplexer": 0,
+    "MaxCustomDevices": 1
+  },
+  "Pins": [
+    {
+      "isAnalog": false,
+      "isI2C": false,
+      "isPWM": true,
+      "Name": "15",
+      "Pin": 1
+    },
+    {
+      "isAnalog": false,
+      "isI2C": false,
+      "isPWM": true,
+      "Name": "7",
+      "Pin": 2
+    },
+    {
+      "isAnalog": false,
+      "isI2C": false,
+      "isPWM": true,
+      "Name": "17",
+      "Pin": 3
+    },
+    {
+      "isAnalog": false,
+      "isI2C": false,
+      "isPWM": true,
+      "Name": "16",
+      "Pin": 4
+    },
+    {
+      "isAnalog": false,
+      "isI2C": false,
+      "isPWM": true,
+      "Name": "42",
+      "Pin": 5
+    },
+    {
+      "isAnalog": false,
+      "isI2C": false,
+      "isPWM": true,
+      "Name": "2",
+      "Pin": 6
+    },
+    {
+      "isAnalog": false,
+      "isI2C": false,
+      "isPWM": true,
+      "Name": "1",
+      "Pin": 7
+    },
+    {
+      "isAnalog": false,
+      "isI2C": true,
+      "isPWM": true,
+      "Name": "39",
+      "Pin": 8
+    },
+    {
+      "isAnalog": false,
+      "isI2C": true,
+      "isPWM": true,
+      "Name": "41",
+      "Pin": 9
+    },
+    {
+      "isAnalog": false,
+      "isI2C": false,
+      "isPWM": true,
+      "Name": "40",
+      "Pin": 10
+    },
+    {
+      "isAnalog": false,
+      "isI2C": false,
+      "isPWM": true,
+      "Name": "6",
+      "Pin": 11
+    }
+ ]
+}

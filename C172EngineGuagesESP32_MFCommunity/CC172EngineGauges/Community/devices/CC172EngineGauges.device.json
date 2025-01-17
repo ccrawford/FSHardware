@@ -1,0 +1,62 @@
+{
+    "$schema": "./mfdevice.schema.json",
+    "Info": {
+      "Label": "CCrawford's C172 Engine Gauges",
+      "Type": "CC172EngineGauges",
+      "Author": "CCrawford",
+      "URL": "https://github.com/CCrawford/FSHardware",
+      "Version" : "1.0.0"
+    },
+    "Config": {
+      "Pins": [],
+      "isI2C": false
+    },
+    "MessageTypes": [
+      {
+        "id": 0,
+        "label": "Set Left Fuel Gallons",
+        "description": "$ will be displayed as Left Fuel Quantity"
+      },
+      {
+        "id": 1,
+        "label": "Set Right Fuel Gallons",
+        "description": "$ will be displayed as Right Fuel Quantity"
+      },
+      {
+        "id": 2,
+        "label": "ETG Temperature",
+        "description": "$ will be displayed as Exhaust Gas Temperature"
+      },
+      {
+        "id": 3,
+        "label": "EGT Marker",
+        "description": "$ will be displayed as the EGT Marker"
+      },
+      {
+        "id": 4,
+        "label": "Fuel Flow (GPH)",
+        "description": "$ will be displayed as Fuel Flow in Gallons per Hour"
+      },
+      {
+        "id": 5,
+        "label": "Oil Temperature",
+        "description": "$ will be displayed as the Oil Temperature"
+      },
+      {
+        "id": 6,
+        "label": "Oil Pressure",
+        "description": "$ will be displayed as the Oil Pressure"
+      },
+      {
+        "id": 7,
+        "label": "Vacuum Pressure",
+        "description": "$ will be displayed as Vacuum Pressure in inches of Mercury (IN Hg)"
+      },
+      {
+        "id": 8,
+        "label": "AMPs",
+        "description": "$ will be displayed as Ammeter reading in Amps"
+      }
+    ]
+  }
+  
